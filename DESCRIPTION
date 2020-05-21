@@ -1,8 +1,8 @@
 Package: TestPackage
 Title: This Is A Template Package
 Version: 1.0
-Author: Eli Holmes
-Maintainer: <eli.holmes@noaa.gov>
+Author: Your Name
+Maintainer: <your.name@your.host>
 Description: This is a template package for students to copy and experiment with for the short course.
 Depends: R (>= 3.4.1)
 Imports: RCurl, png, grid, forecast
