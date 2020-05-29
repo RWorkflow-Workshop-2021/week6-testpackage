@@ -8,12 +8,12 @@
 #' @return A plot of a forecast.
 #' @examples
 #' dat <- WWWusage
-#' myarimaforecast(dat, nyears=100)
+#' littleforecast(dat, nyears=100)
 #' @export
-myarimaforecast <- function(data, nyears=10){
+littleforecast <- function(data, nyears=10){
   # This is how I would write these 3 lines using a pipe
   # data %>% auto.arima %>% forecast(h = nyears) %>% plot
   fit <- forecast::auto.arima(data)
   fc <- forecast::forecast(fit, h = nyears)
-  plot(fc)
+  ggplot2::autoplot(fc)
 }
