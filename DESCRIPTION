@@ -1,6 +1,6 @@
 Package: TestPackage
 Title: This Is A Template Package
-Version: 1.1
+Version: 1.2
 Author: Eli Holmes
 Maintainer: <eli.holmes@noaa.gov>
 Description: This is a template package for students to copy and experiment with for the short course.
