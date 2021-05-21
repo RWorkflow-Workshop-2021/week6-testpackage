@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 *.Rproj
+TestPackage.Rcheck/
+TestPackage*.tar.gz
+TestPackage*.tgz
