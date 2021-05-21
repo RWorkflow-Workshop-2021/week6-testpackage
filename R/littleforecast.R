@@ -11,7 +11,7 @@
 #' littleforecast(dat, nyears=100)
 #' @export
 littleforecast <- function(data, nyears=10){
-  # This is how I would write these 3 lines using a pipe
+  # We could write these 3 lines using a pipe
   # data %>% auto.arima %>% forecast(h = nyears) %>% plot
   fit <- forecast::auto.arima(data)
   fc <- forecast::forecast(fit, h = nyears)
