@@ -3,7 +3,8 @@ A small package for students to experiment with.
 
 To install, use this code. You might need to install the **devtools** package.
 ```
-devtools::install_github("RVerse-Tutorials/TestPackage")
+# install.packages("devtools")
+devtools::install_github("RWorkflow-Workshop-2021/week6-testpackage")
 ```
 
 To run the example
