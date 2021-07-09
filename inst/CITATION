@@ -1,0 +1,16 @@
+citHeader("To cite testpackage in publications use:")
+
+citEntry(entry = "Article",
+  title        = "A little testpackage",
+  author       = personList(as.person("Elizabeth Holmes")),
+  journal      = "Journal of Not Really A Journal",
+  year         = "2021",
+  volume       = "40",
+  number       = "3",
+  pages        = "1--25",
+
+  textVersion  =
+  paste("Elizabeth Holmes (2021).",
+        "A little testpackage.",
+        "Journal of Not Really A Journal, 40(3), 1-25.")
+)

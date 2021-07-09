@@ -1,0 +1,41 @@
+---
+output: 
+  md_document:
+    variant: gfm
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# TestPackage
+A small package for students to experiment with.
+
+To install, use this code. You might need to install the **devtools** package.
+```
+# install.packages("devtools")
+devtools::install_github("RWorkflow-Workshop-2021/week6-testpackage")
+```
+
+To run the example
+```
+library(TestPackage)
+dat <- WWWusage
+littleforecast(dat, nyears=100)
+```
+
+****
+
+```{r add-disclaimer, echo=FALSE, results='asis'}
+url <- "https://raw.githubusercontent.com/nmfs-fish-tools/Resources/master/Disclaimer.md"
+childtext <- readLines(url)
+cat(childtext, sep="\n")
+```
+
+****
+
+```{r footer, echo=FALSE, results='asis'}
+url <- "https://raw.githubusercontent.com/nmfs-fish-tools/Resources/master/footer.md" 
+childtext <- readLines(url)
+cat(childtext, sep="\n")
+```
+
+

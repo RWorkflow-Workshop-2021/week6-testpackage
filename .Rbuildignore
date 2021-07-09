@@ -3,3 +3,10 @@
 ^TestPackage\.Rcheck$
 ^TestPackage.*\.tar\.gz$
 ^TestPackage.*\.tgz$
+^docs$
+^_pkgdown\.yml$
+^README\.Rmd$
+^pkgdown$
+^LICENSE\.md$
+^\.github$
+
